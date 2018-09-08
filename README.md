@@ -1,10 +1,9 @@
 # STA660
 Project Git Hub repository for STA660
 
-
 * Explanation of variables
 
-* DEFINITIONS
+**DEFINITIONS**
 
 Total Time (s): Total time in seconds for one 3-mile ride 
 
