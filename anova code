@@ -1,0 +1,13 @@
+code for anova test:
+
+library(car)
+library(agricolae)
+library(gridExtra)
+library(cowplot)
+
+hf_aov <- aov(`avg HR` ~ Bike, data=averages)
+hf_aov
+
+# Tukey test for equality of means
+HSD.test(hf_aov,"Bike", group=TRUE,console=TRUE,
+         main="Tukey HSD for HF Power by Race")
